@@ -55,15 +55,15 @@ const EmailLists = () => {
         <div className="text-center flex gap-4  justify-center mt-5">
           <button
             className="bg-gray-500 rounded-lg py-1 px-2"
-            onClick={() => setPage(page - 1)}
+            onClick={() => setPage(1)}
           >
-            previous
+            1
           </button>
           <button
             className="bg-gray-500 rounded-lg py-1 px-2"
-            onClick={() => setPage(page + 1)}
+            onClick={() => setPage(2)}
           >
-            next
+            2{" "}
           </button>
         </div>
       )}
