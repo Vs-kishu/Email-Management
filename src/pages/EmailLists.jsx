@@ -28,7 +28,7 @@ const EmailLists = () => {
 
   return (
     <section>
-      <div className="mt-5 flex gap-4">
+      <div className="mt-5 flex flex-col xl:flex-row gap-4">
         {filteredEmails ? (
           <div className="bg-slate-50 flex flex-col w-full gap-4">
             {filteredEmails?.map((email) => (

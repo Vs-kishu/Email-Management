@@ -46,7 +46,7 @@ const EmailCard = ({ mail }) => {
         Loading && "animate-pulse"
       } rounded-lg border-slate-400 ${
         id === activeMail?.body.id ? "bg-amber-50" : "bg-white"
-      }  py-4 px-8 flex  items-start gap-4 cursor-pointer`}
+      }  py-4 px-8 flex   items-start gap-4 cursor-pointer`}
     >
       <div className="w-16 h-16 flex-shrink-0 bg-red-500 rounded-full flex justify-center items-center text-4xl font-medium text-white">
         {name.split("")[0].toUpperCase()}

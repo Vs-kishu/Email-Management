@@ -34,7 +34,7 @@ const EmailBody = ({ mail }) => {
     alert("added to read mails");
   };
   return (
-    <section className="w-[150rem]  border-2 rounded-lg border-slate-400 bg-white py-4 px-4">
+    <section className="w-full xl:w-[150rem]  border-2 rounded-lg border-slate-400 bg-white py-4 px-4">
       <header className="flex justify-between items-center">
         <div className="flex items-start gap-4">
           <div className="w-16 h-16 flex-shrink-0 bg-red-500 rounded-full flex justify-center items-center text-4xl font-medium text-white">
